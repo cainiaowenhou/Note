@@ -11,3 +11,12 @@
 - length:数组
 - length()、size()::泛型
 ## 队列
+
+## 哈希表
+- 初始化：HashMap<Integer, String> map = new HashMap<Integer, String>();
+- 添加k-v: map.put(key, value);
+- 获取v : map.get(key);
+- 删除：map.remove(key);
+- 迭代： for(Integer i: map.keySet()){}
+- 判空：map.isEmpty()
+- 判key: map.containsKey(key)
