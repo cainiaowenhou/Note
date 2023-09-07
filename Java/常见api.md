@@ -11,7 +11,12 @@
 - length:数组
 - length()、size()::泛型
 ## 队列
-
+- 初始化：Queue<Integer> queue = new LinkedList<Integer>();
+- 入队：queue.offer()
+- 出队：queue.poll()
+- 初始化：Deque<Integer> queue = new LinkedList<Integer>();
+- 入队：queue.offerFirst(); queue.offerLast();
+- 出队：queue.pollFirst(); queue.pollLast();
 ## 哈希表
 - 初始化：HashMap<Integer, String> map = new HashMap<Integer, String>();
 - 添加k-v: map.put(key, value);
@@ -20,3 +25,7 @@
 - 迭代： for(Integer i: map.keySet()){}
 - 判空：map.isEmpty()
 - 判key: map.containsKey(key)
+
+## 最大值最小值
+- Long.MIN_VALUE
+- Long.MAX_VALUE
