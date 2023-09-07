@@ -2,7 +2,7 @@
 
 - Arrays.sort(arr);
 - Arrays.sort(arr, Collections.reverseOrder());
-
+- arraylist.sort();
 ## String
 - 数组转换成字符串：list.toString();
 - 字符串切片：str.substring(startIdx, endIdx);
