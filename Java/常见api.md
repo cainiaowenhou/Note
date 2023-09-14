@@ -10,6 +10,7 @@
 - 字符串数组：str.split(", ");
 - length:数组
 - length()、size()::泛型
+- 转换成List: String[] strArr = data.split(","); List<String> dataList = new LinkedList<String>(Arrays.asList(strArr));
 ## 队列
 - 初始化：Queue<Integer> queue = new LinkedList<Integer>();
 - 入队：queue.offer()
