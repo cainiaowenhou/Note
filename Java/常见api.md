@@ -7,6 +7,8 @@
 - 数组转换成字符串：list.toString();
 - 字符串切片：str.substring(startIdx, endIdx);
 - 字符串转数字： Integer.parseInt(str)/Integer.valueOf(str);
+- 字符转数字： Character.getNumericValue(c）；
+- 字符是否为数字：Character.isDigit(c）；
 - 字符串数组：str.split(", ");
 - length:数组
 - length()、size()::泛型
